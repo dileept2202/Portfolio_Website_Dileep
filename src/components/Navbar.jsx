@@ -21,23 +21,43 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="nav-logo"><img src="/profile.jpg" alt="Dileep T" /></div>
-      <ul className={`nav-links${open ? " open" : ""}`}>
-        {links.map((l) => (
-          <li key={l}>
-            <a
-              href={`#${l}`}
-              className={active === l ? "active" : ""}
-              onClick={() => setOpen(false)}
-            >
-              {l}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <button className="hamburger" onClick={() => setOpen(!open)} aria-label="Toggle menu">
-        <span /><span /><span />
-      </button>
-    </nav>
+  <div className="nav-logo">
+    <img src="/profile.jpg" alt="Dileep T" />
+  </div>
+
+  <ul className={`nav-links${open ? " open" : ""}`}>
+    {links.map((l) => (
+      <li key={l}>
+        <a
+          href={`#${l}`}
+          className={active === l ? "active" : ""}
+          onClick={() => setOpen(false)}
+        >
+          {l}
+        </a>
+      </li>
+    ))}
+
+    <li>
+      <a
+        href="/resume.pdf"
+        download="Dileep_T_Resume.pdf"
+        className="resume-btn"
+      >
+        Download Resume
+      </a>
+    </li>
+  </ul>
+
+  <button
+    className="hamburger"
+    onClick={() => setOpen(!open)}
+    aria-label="Toggle menu"
+  >
+    <span />
+    <span />
+    <span />
+  </button>
+</nav>
   );
 }
