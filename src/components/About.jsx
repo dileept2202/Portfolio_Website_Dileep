@@ -41,7 +41,7 @@ export default function About() {
 
           <p>
             Currently, I am working as a{" "}
-            <strong>Data Analyst – Medical Billing at Viyugaa Technologies</strong>,
+            <strong>Data Analyst – Data Quality & Validation (Healthcare Billing) at Viyugaa Technologies</strong>,
             where I work with healthcare billing data, validate claim forms,
             resolve data discrepancies, and maintain high accuracy while
             meeting productivity targets.
