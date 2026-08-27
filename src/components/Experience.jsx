@@ -37,7 +37,7 @@ export default function Experience() {
             <div className="exp-header">
               <div>
                 <div className="exp-role">
-                  Data Analyst – Medical Billing
+                  Data Analyst – Data Quality & Validation (Healthcare Billing) 
                 </div>
 
                 <div className="exp-company">
@@ -52,20 +52,15 @@ export default function Experience() {
 
             <ul className="exp-list">
               <li>
-                Reviewed and validated dental and insurance claim forms
-                against source documents, verifying signature fields, dates,
-                and provider information for accuracy.
+                Perform systematic data validation and quality audits on high-volume healthcare billing records, cross-referencing multiple data fields against source documentation to ensure accuracy and consistency.
               </li>
 
               <li>
-                Resolved field-level and page-level discrepancies using a
-                data validation platform, correcting mismatched or missing
-                entries to ensure compliance with billing standards.
+                Identify, track, and resolve data discrepancies at the field and record level using a structured validation platform, implementing corrections to maintain data integrity across large datasets. 
               </li>
 
               <li>
-                Achieved 98%+ accuracy while auditing and correcting over
-                1,500 billing forms daily, maintaining productivity targets.
+                Maintain 98%+ data accuracy while auditing and processing 1,500+ records daily, consistently exceeding quality and productivity benchmarks in a high-throughput environment. 
               </li>
             </ul>
           </div>
